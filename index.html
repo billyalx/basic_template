@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Template</title>
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <!-- Navbar -->
+            <div class="navwrapper">
+                <ul class="navigation">
+                    <li class="nav">
+                        <a class="navlink" href="#home">HOME</a>
+                    </li>
+                    <li class="nav">
+                        <a class="navlink" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav">
+                        <a class="navlink" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contentwrapper">
+                <h1>HOME TEMPLATE</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container red">
+            <div class="contentwrapper">
+                <h1>ABOUT</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container blue">
+            <div class="contentwrapper">
+                <h1>CONTACT</h1>
+            </div>
+        </div>
+    </section>
+    
+    <div class="top" onclick="goToTop()">
+        <a href="#home">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" />
+            </svg>
+        </a>
+    </div>
+    <!-- <script>
+        const goToTop = () => {
+            return location.href = "#home"
+        }
+    </script> -->
+</body>
+</html>
